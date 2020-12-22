@@ -1,0 +1,6 @@
+.ORIG x3000
+
+Array .FILL x32F0
+
+
+.END
