@@ -66,6 +66,7 @@ SWAP
     BR INCRPAIR
     
 INCRPAIR
+
     ADD R0, R0, #1      ; Increments index
     BR ENDOFARRAY
     
@@ -82,6 +83,7 @@ ENDOFARRAY
     BRn COMPARE
     
 RESTART?
+
     ADD R3, R3, #0            ; Determines if index has reached the end of array. If not, repeats sorting
     BRz DONE
     AND R3, R3, #0
