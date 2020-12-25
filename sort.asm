@@ -92,5 +92,5 @@ RESTART?
     BR COMPARE
     
 DONE
-    
+   HALT 
 .END
